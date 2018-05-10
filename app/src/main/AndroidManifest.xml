@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".ArrayActivity" />
+        <activity android:name=".RandomActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".InstanceStateActivity"></activity>
     </application>
 
 </manifest>

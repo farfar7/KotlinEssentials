@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Kotlin Essentials</string>
+    <string name="array">Arrays</string>
+    <string name="spinner">Spinner</string>
+    <string name="intent">Intent</string>
+    <string name="random">Random</string>
+    <string name="toast">Toast</string>
+    <string name="check">Check Box</string>
+    <string name="edit">Edit Text</string>
+    <string name="date"><![CDATA[Date & Time Pickers]]></string>
+    <string name="btn">Button</string>
+    <string name="inst">Save/Restore Instance State</string>
 </resources>

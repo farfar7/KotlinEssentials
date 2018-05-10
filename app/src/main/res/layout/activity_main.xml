@@ -33,14 +33,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btn2Clicked"
+                android:text="@string/array"
+                android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnSpinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btnSpinnerClicked"
+                android:text="@string/spinner"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -53,14 +57,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btn4Clicked"
+                android:text="@string/intent"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btn3Clicked"
+                android:text="@string/random"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -73,14 +81,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btn6Clicked"
+                android:text="@string/toast"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/check"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -93,14 +104,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/edit"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/date"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -113,14 +126,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btn10Clicked"
+                android:text="@string/btn"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="btn9Clicked"
+                android:text="@string/inst"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
